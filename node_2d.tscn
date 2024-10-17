@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://cjgavmme740cp"]
+
+[ext_resource type="Texture2D" uid="uid://d13gi4v1axipl" path="res://Ghost Game Sprites/bookshelf.png" id="1_nixw5"]
+[ext_resource type="Texture2D" uid="uid://blv10nc6om5xm" path="res://Ghost Game Sprites/broom.png" id="2_2r4cu"]
+[ext_resource type="Texture2D" uid="uid://dy0172jt2oy80" path="res://Ghost Game Sprites/bed.png" id="3_54ti6"]
+[ext_resource type="Script" path="res://Player/Player.gd" id="4_btiis"]
+[ext_resource type="Texture2D" uid="uid://bj6isds8prn04" path="res://Ghost Game Sprites/catrunningtwo-Sheet-Sheet.png" id="4_efm01"]
+
+[node name="World" type="Node2D"]
+
+[node name="Bookshelf" type="Sprite2D" parent="."]
+position = Vector2(111, 58)
+scale = Vector2(0.325, 0.322222)
+texture = ExtResource("1_nixw5")
+
+[node name="Broom" type="Sprite2D" parent="."]
+position = Vector2(42, 63)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_2r4cu")
+
+[node name="Bed" type="Sprite2D" parent="."]
+position = Vector2(209, 68)
+scale = Vector2(0.264063, 0.321875)
+texture = ExtResource("3_54ti6")
+
+[node name="Player" type="CharacterBody2D" parent="."]
+position = Vector2(121, 118)
+script = ExtResource("4_btiis")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+position = Vector2(0, 1)
+scale = Vector2(0.259115, 0.302083)
+texture = ExtResource("4_efm01")
+hframes = 6
