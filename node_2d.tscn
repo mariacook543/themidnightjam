@@ -11,7 +11,7 @@ script = ExtResource("4_btiis")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
 texture_filter = 1
-position = Vector2(94, 78)
+position = Vector2(127, 85)
 scale = Vector2(0.608724, 0.609375)
 texture = ExtResource("5_vjvkx")
 hframes = 3
