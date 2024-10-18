@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blv10nc6om5xm"
-path="res://.godot/imported/broom.png-ba1fbfb6d4bc11a56d9fb74b7e6741a6.ctex"
+uid="uid://dy0172jt2oy80"
+path="res://.godot/imported/bed.png-33e863ea2999b615375bb07310716d8f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ghost Game Sprites/broom.png"
-dest_files=["res://.godot/imported/broom.png-ba1fbfb6d4bc11a56d9fb74b7e6741a6.ctex"]
+source_file="res://temporary objects/bed.png"
+dest_files=["res://.godot/imported/bed.png-33e863ea2999b615375bb07310716d8f.ctex"]
 
 [params]
 

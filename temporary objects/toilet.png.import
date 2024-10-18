@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1n87c2gyqhjj"
-path="res://.godot/imported/floortiles2.png-0358eda2ece44495c2aa3947ca5df853.ctex"
+uid="uid://dpftosag8rcj3"
+path="res://.godot/imported/toilet.png-3e109cb03db83b79cd03680824407db9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ghost Game Sprites/floortiles2.png"
-dest_files=["res://.godot/imported/floortiles2.png-0358eda2ece44495c2aa3947ca5df853.ctex"]
+source_file="res://temporary objects/toilet.png"
+dest_files=["res://.godot/imported/toilet.png-3e109cb03db83b79cd03680824407db9.ctex"]
 
 [params]
 

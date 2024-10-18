@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d04llfku4osl6"
-path="res://.godot/imported/walltile3.png-94e734cecd406a633e2b808c58c1fe4b.ctex"
+path="res://.godot/imported/walltile3.png-2b6d64b7fa810f5ab3d5cc30b0829fe9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ghost Game Sprites/walltile3.png"
-dest_files=["res://.godot/imported/walltile3.png-94e734cecd406a633e2b808c58c1fe4b.ctex"]
+source_file="res://temporary objects/walltile3.png"
+dest_files=["res://.godot/imported/walltile3.png-2b6d64b7fa810f5ab3d5cc30b0829fe9.ctex"]
 
 [params]
 

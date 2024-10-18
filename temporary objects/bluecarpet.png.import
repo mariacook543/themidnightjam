@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ds8s0hd6vms0x"
-path="res://.godot/imported/cabinet1.png-931ae4a511d98c99c309b9b6b94c3508.ctex"
+uid="uid://bmp483xayoxv3"
+path="res://.godot/imported/bluecarpet.png-88918742bd0857e79d4b406cc68336f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ghost Game Sprites/cabinet1.png"
-dest_files=["res://.godot/imported/cabinet1.png-931ae4a511d98c99c309b9b6b94c3508.ctex"]
+source_file="res://temporary objects/bluecarpet.png"
+dest_files=["res://.godot/imported/bluecarpet.png-88918742bd0857e79d4b406cc68336f4.ctex"]
 
 [params]
 

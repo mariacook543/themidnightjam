@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj6isds8prn04"
-path="res://.godot/imported/catrunningtwo-Sheet-Sheet.png-079b6bba53d959030bb04764583428dd.ctex"
+uid="uid://7et67vcmpq56"
+path="res://.godot/imported/clock.png-9f9116260c133b2ae74992835e7ff9cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ghost Game Sprites/catrunningtwo-Sheet-Sheet.png"
-dest_files=["res://.godot/imported/catrunningtwo-Sheet-Sheet.png-079b6bba53d959030bb04764583428dd.ctex"]
+source_file="res://temporary objects/clock.png"
+dest_files=["res://.godot/imported/clock.png-9f9116260c133b2ae74992835e7ff9cf.ctex"]
 
 [params]
 

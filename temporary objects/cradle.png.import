@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://diar7tsaaim70"
-path="res://.godot/imported/walltile2.png-f1a2481e310d2804eb33a517761485d5.ctex"
+uid="uid://do8ab3ob20hs8"
+path="res://.godot/imported/cradle.png-fc7265e31b4b7ecdf76784b25fb81ef2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ghost Game Sprites/walltile2.png"
-dest_files=["res://.godot/imported/walltile2.png-f1a2481e310d2804eb33a517761485d5.ctex"]
+source_file="res://temporary objects/cradle.png"
+dest_files=["res://.godot/imported/cradle.png-fc7265e31b4b7ecdf76784b25fb81ef2.ctex"]
 
 [params]
 

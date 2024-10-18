@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://do8ab3ob20hs8"
-path="res://.godot/imported/cradle.png-6dcdad8dfe4f758ba31bbe2bbb207f47.ctex"
+uid="uid://d13gi4v1axipl"
+path="res://.godot/imported/bookshelf.png-f8083ea9c8d956ad91b51cad73c7ae23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ghost Game Sprites/cradle.png"
-dest_files=["res://.godot/imported/cradle.png-6dcdad8dfe4f758ba31bbe2bbb207f47.ctex"]
+source_file="res://temporary objects/bookshelf.png"
+dest_files=["res://.godot/imported/bookshelf.png-f8083ea9c8d956ad91b51cad73c7ae23.ctex"]
 
 [params]
 

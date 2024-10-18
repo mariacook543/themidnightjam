@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://cjgavmme740cp"]
 
-[ext_resource type="Texture2D" uid="uid://d13gi4v1axipl" path="res://Ghost Game Sprites/bookshelf.png" id="1_nixw5"]
-[ext_resource type="Texture2D" uid="uid://blv10nc6om5xm" path="res://Ghost Game Sprites/broom.png" id="2_2r4cu"]
-[ext_resource type="Texture2D" uid="uid://dy0172jt2oy80" path="res://Ghost Game Sprites/bed.png" id="3_54ti6"]
-[ext_resource type="Script" path="res://Player/Player.gd" id="4_btiis"]
-[ext_resource type="Texture2D" uid="uid://bj6isds8prn04" path="res://Ghost Game Sprites/catrunningtwo-Sheet-Sheet.png" id="4_efm01"]
+[ext_resource type="Texture2D" uid="uid://d13gi4v1axipl" path="res://temporary objects/bookshelf.png" id="1_nixw5"]
+[ext_resource type="Texture2D" uid="uid://blv10nc6om5xm" path="res://temporary objects/broom.png" id="2_2r4cu"]
+[ext_resource type="Texture2D" uid="uid://dy0172jt2oy80" path="res://temporary objects/bed.png" id="3_54ti6"]
+[ext_resource type="Script" path="res://player/Player.gd" id="4_btiis"]
+[ext_resource type="Texture2D" uid="uid://2liouv7c5tkr" path="res://characters/pigwalking.webp" id="5_vjvkx"]
 
 [node name="World" type="Node2D"]
 
@@ -24,12 +24,13 @@ scale = Vector2(0.264063, 0.321875)
 texture = ExtResource("3_54ti6")
 
 [node name="Player" type="CharacterBody2D" parent="."]
-position = Vector2(121, 118)
+position = Vector2(96, 115)
 script = ExtResource("4_btiis")
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
 position = Vector2(0, 1)
 scale = Vector2(0.259115, 0.302083)
-texture = ExtResource("4_efm01")
-hframes = 6
+texture = ExtResource("5_vjvkx")
+hframes = 3
+vframes = 4

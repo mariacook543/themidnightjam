@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cm85632mibnqu"
-path="res://.godot/imported/walltile1.png-af14c38a833530c55e680c2b1e7f20d1.ctex"
+uid="uid://cviecjgdhhsxk"
+path="res://.godot/imported/batterytwo.png-86cf5a2285f503567da4d3492ce8398c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ghost Game Sprites/walltile1.png"
-dest_files=["res://.godot/imported/walltile1.png-af14c38a833530c55e680c2b1e7f20d1.ctex"]
+source_file="res://temporary objects/batterytwo.png"
+dest_files=["res://.godot/imported/batterytwo.png-86cf5a2285f503567da4d3492ce8398c.ctex"]
 
 [params]
 

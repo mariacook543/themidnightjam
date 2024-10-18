@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7et67vcmpq56"
-path="res://.godot/imported/clock.png-358e7948f31532a1eddb166454887085.ctex"
+uid="uid://cbyj1qsbrnak1"
+path="res://.godot/imported/battery.png-87f239c0c71d20f9d8a421ddb76b02a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ghost Game Sprites/clock.png"
-dest_files=["res://.godot/imported/clock.png-358e7948f31532a1eddb166454887085.ctex"]
+source_file="res://temporary objects/battery.png"
+dest_files=["res://.godot/imported/battery.png-87f239c0c71d20f9d8a421ddb76b02a6.ctex"]
 
 [params]
 

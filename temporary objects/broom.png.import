@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cviecjgdhhsxk"
-path="res://.godot/imported/batterytwo.png-cd73fd99d69fd586a54c2c6e7efc7fd0.ctex"
+uid="uid://blv10nc6om5xm"
+path="res://.godot/imported/broom.png-1abf27941af2ecf6dfa49a267a67fd42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ghost Game Sprites/batterytwo.png"
-dest_files=["res://.godot/imported/batterytwo.png-cd73fd99d69fd586a54c2c6e7efc7fd0.ctex"]
+source_file="res://temporary objects/broom.png"
+dest_files=["res://.godot/imported/broom.png-1abf27941af2ecf6dfa49a267a67fd42.ctex"]
 
 [params]
 
