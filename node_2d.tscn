@@ -1,36 +1,19 @@
-[gd_scene load_steps=6 format=3 uid="uid://cjgavmme740cp"]
+[gd_scene load_steps=3 format=3 uid="uid://cjgavmme740cp"]
 
-[ext_resource type="Texture2D" uid="uid://d13gi4v1axipl" path="res://temporary objects/bookshelf.png" id="1_nixw5"]
-[ext_resource type="Texture2D" uid="uid://blv10nc6om5xm" path="res://temporary objects/broom.png" id="2_2r4cu"]
-[ext_resource type="Texture2D" uid="uid://dy0172jt2oy80" path="res://temporary objects/bed.png" id="3_54ti6"]
 [ext_resource type="Script" path="res://player/Player.gd" id="4_btiis"]
 [ext_resource type="Texture2D" uid="uid://2liouv7c5tkr" path="res://characters/pigwalking.webp" id="5_vjvkx"]
 
 [node name="World" type="Node2D"]
 
-[node name="Bookshelf" type="Sprite2D" parent="."]
-position = Vector2(111, 58)
-scale = Vector2(0.325, 0.322222)
-texture = ExtResource("1_nixw5")
-
-[node name="Broom" type="Sprite2D" parent="."]
-position = Vector2(42, 63)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_2r4cu")
-
-[node name="Bed" type="Sprite2D" parent="."]
-position = Vector2(209, 68)
-scale = Vector2(0.264063, 0.321875)
-texture = ExtResource("3_54ti6")
-
 [node name="Player" type="CharacterBody2D" parent="."]
-position = Vector2(96, 115)
+position = Vector2(0, -1)
 script = ExtResource("4_btiis")
-metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
-position = Vector2(0, 1)
-scale = Vector2(0.259115, 0.302083)
+texture_filter = 1
+position = Vector2(94, 78)
+scale = Vector2(0.608724, 0.609375)
 texture = ExtResource("5_vjvkx")
 hframes = 3
 vframes = 4
+metadata/_edit_group_ = true

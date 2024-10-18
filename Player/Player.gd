@@ -12,6 +12,7 @@ func _physics_process(delta):
 	input_vector = input_vector.normalized()
 	
 	if input_vector != Vector2.ZERO:
+		velocity = velocity.move_toward(input_vector * max_spd, accel * delta)
 		velocity += input_vector * accel * delta	
 	else:
 		velocity = velocity.move_toward(Vector2.ZERO, friction)
