@@ -1,19 +1,31 @@
-[gd_scene load_steps=3 format=3 uid="uid://cjgavmme740cp"]
+[gd_scene load_steps=4 format=3 uid="uid://cjgavmme740cp"]
 
 [ext_resource type="Script" path="res://player/Player.gd" id="4_btiis"]
 [ext_resource type="Texture2D" uid="uid://2liouv7c5tkr" path="res://characters/pigwalking.webp" id="5_vjvkx"]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wkcm0"]
+radius = 8.0
+height = 22.0
+
 [node name="World" type="Node2D"]
 
 [node name="Player" type="CharacterBody2D" parent="."]
-position = Vector2(0, -1)
 script = ExtResource("4_btiis")
+metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
 texture_filter = 1
-position = Vector2(127, 85)
+position = Vector2(93, 64)
 scale = Vector2(0.608724, 0.609375)
 texture = ExtResource("5_vjvkx")
 hframes = 3
 vframes = 4
-metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(92, 66)
+shape = SubResource("CapsuleShape2D_wkcm0")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(0, 0, 55, 1, 20, 47, 45, 88, 27, 131, 61, 150, 117, 145, 178, 164, 241, 141, 278, 154, 289, 110, 289, 56, 301, 30, 265, 12, 189, 10, 128, 16, 83, 5, 54, 2, 320, 0, 320, 180, -1, 182)
