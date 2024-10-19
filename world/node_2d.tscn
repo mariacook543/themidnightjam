@@ -1,5 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://cjgavmme740cp"]
+[gd_scene load_steps=5 format=3 uid="uid://cjgavmme740cp"]
 
+[ext_resource type="PackedScene" uid="uid://b284yxkrgugb4" path="res://world/bed.tscn" id="3_lv8nd"]
 [ext_resource type="Script" path="res://player/Player.gd" id="4_btiis"]
 [ext_resource type="Texture2D" uid="uid://2liouv7c5tkr" path="res://characters/pigwalking.webp" id="5_vjvkx"]
 
@@ -11,7 +12,6 @@ height = 22.0
 
 [node name="Player" type="CharacterBody2D" parent="."]
 script = ExtResource("4_btiis")
-metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
 texture_filter = 1
@@ -29,3 +29,6 @@ shape = SubResource("CapsuleShape2D_wkcm0")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 polygon = PackedVector2Array(0, 0, 55, 1, 20, 47, 45, 88, 27, 131, 61, 150, 117, 145, 178, 164, 241, 141, 278, 154, 289, 110, 289, 56, 301, 30, 265, 12, 189, 10, 128, 16, 83, 5, 54, 2, 320, 0, 320, 180, -1, 182)
+
+[node name="Bed" parent="." instance=ExtResource("3_lv8nd")]
+position = Vector2(48, 31)
