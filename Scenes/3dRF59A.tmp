@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://r7rj4d4laiyj"]
+
+[ext_resource type="Script" path="res://Scripts/camera_3d.gd" id="1_gjmt3"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_16xjl"]
+
+[node name="Room" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+current = true
+script = ExtResource("1_gjmt3")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.80682)
+mesh = SubResource("CylinderMesh_16xjl")
