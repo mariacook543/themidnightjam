@@ -4,13 +4,9 @@ const accel = 400
 const max_spd = 150
 const friction = 400
 
-var animationplayer = null
-var animationtree = null
-var animationstate = null
-func _ready():
-	animationplayer = $AnimationPlayer
-	animationtree = $AnimationTree
-	animationstate = animationtree.get("parameters/playback")
+@onready var amimationplayer = $AnimationPlayer
+@onready var animationtree = $AnimationTree
+@onready var animationstate = animationtree.get("parameters/playback")
 
 func _physics_process(delta):
 	var input_vector = Vector2.ZERO

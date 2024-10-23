@@ -1,11 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://cjgavmme740cp"]
+[gd_scene load_steps=3 format=3 uid="uid://cjgavmme740cp"]
 
-[ext_resource type="Script" path="res://world/node_2d.gd" id="1_sptat"]
 [ext_resource type="PackedScene" uid="uid://c3unouv448ahq" path="res://player/player.tscn" id="2_aqmcp"]
 [ext_resource type="PackedScene" uid="uid://b284yxkrgugb4" path="res://world/bed.tscn" id="3_lv8nd"]
 
 [node name="World" type="Node2D"]
-script = ExtResource("1_sptat")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
