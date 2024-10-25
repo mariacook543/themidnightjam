@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://cjgavmme740cp"]
+[gd_scene load_steps=2 format=3 uid="uid://cjgavmme740cp"]
 
 [ext_resource type="PackedScene" uid="uid://c3unouv448ahq" path="res://player/player.tscn" id="2_aqmcp"]
-[ext_resource type="PackedScene" uid="uid://b284yxkrgugb4" path="res://world/bed.tscn" id="3_lv8nd"]
 
 [node name="World" type="Node2D"]
 
@@ -10,8 +9,5 @@
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 visible = false
 polygon = PackedVector2Array(0, 0, 55, 1, 20, 47, 45, 88, 27, 131, 61, 150, 117, 145, 178, 164, 241, 141, 278, 154, 289, 110, 289, 56, 301, 30, 265, 12, 189, 10, 128, 16, 83, 5, 54, 2, 320, 0, 320, 180, -1, 182)
-
-[node name="Bed" parent="." instance=ExtResource("3_lv8nd")]
-position = Vector2(48, 32)
 
 [node name="Player" parent="." instance=ExtResource("2_aqmcp")]
