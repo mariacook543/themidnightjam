@@ -1,6 +1,6 @@
 [gd_scene load_steps=28 format=3 uid="uid://c3unouv448ahq"]
 
-[ext_resource type="Script" path="res://player/player.gd" id="1_xmrrh"]
+[ext_resource type="Script" path="res://player/Player.gd" id="1_45yfp"]
 [ext_resource type="Texture2D" uid="uid://2liouv7c5tkr" path="res://characters/pigwalking.webp" id="2_4dldk"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wkcm0"]
@@ -239,7 +239,7 @@ graph_offset = Vector2(80.2546, 18)
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(-2, -9)
-script = ExtResource("1_xmrrh")
+script = ExtResource("1_45yfp")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
